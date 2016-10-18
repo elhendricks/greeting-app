@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "says hello to people",
   "scripts": {
-    "test": "mocha",
-    "lint": "npm run eslint"
-  },
+    "test:run": "mocha",
+    "test": "npm run test:run",
+    "test:watch": "npm run test:run -- -w",
+    "lint": "eslint ./lib",
+    "pretest": "npm run lint"
+   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elhendricks/greeting-app.git"
