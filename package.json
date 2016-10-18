@@ -8,8 +8,7 @@
     "test:watch": "npm run test:run -- -w",
     "lint": "eslint ./lib",
     "pretest": "npm run lint"
-   },
-
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elhendricks/greeting-app.git"
@@ -21,6 +20,11 @@
   },
   "homepage": "https://github.com/elhendricks/greeting-app#readme",
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "knock-knock-jokes": "^1.7.0"
   }
 }
