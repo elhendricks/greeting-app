@@ -1,0 +1,22 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "says hello to people",
+  "scripts": {
+    "test": "mocha",
+    "lint": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhendricks/greeting-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhendricks/greeting-app/issues"
+  },
+  "homepage": "https://github.com/elhendricks/greeting-app#readme",
+  "devDependencies": {
+    "eslint": "^3.8.1"
+  }
+}
